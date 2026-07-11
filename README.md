@@ -12,9 +12,18 @@
 Test accuracy **87.61%** (validation best: 88.11%) — a ~0.5% val–test gap. Strongest classes: car, frog, ship, truck (91%+); hardest: cat ↔ dog, the largest single confusion.
 
 ## Repository Structure
-- `convolutional_networks.ipynb` / `.py`: Walkthrough notebook and the from-scratch `Conv`/`MaxPool` implementations.
-- `a3_helper.py` / `eecs598/`: CIFAR-10 loading, gradient utilities, training solver, and visualization helpers.
+- `convolutional_networks.ipynb`: Walkthrough notebook — from-scratch layers, gradient checks, and the full `MyCNN` tuning/training/evaluation pipeline.
+- `convolutional_networks.py`: Implementation of the `Conv` and `MaxPool` layers (naive forward/backward).
+- `a3_helper.py`: CIFAR-10 loading and plotting helpers.
 - `pytorch_quick_start.ipynb`: PyTorch quickstart reference (MNIST).
+- `eecs598/` — Course helper package:
+  - `__init__.py`: Package initialization and seed utilities.
+  - `data.py`: CIFAR-10 downloading, loading and preprocessing.
+  - `grad.py`: Numeric gradient checking (finite differences, relative error).
+  - `solver.py`: Generic training-loop engine (optimization, checkpointing).
+  - `utils.py`: General assignment utilities.
+  - `vis.py`: Tensor and image visualization helpers.
+  - `submit.py`: Submission packaging tooling.
 
 ## Acknowledgment
 Scaffolding and the `eecs598` package are based on the University of Michigan's EECS 498/598 *Deep Learning for Computer Vision* course.

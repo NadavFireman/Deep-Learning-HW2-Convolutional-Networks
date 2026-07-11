@@ -24,6 +24,3 @@ Test accuracy **87.61%** (validation best: 88.11%) — a ~0.5% val–test gap. S
   - `utils.py`: General assignment utilities.
   - `vis.py`: Tensor and image visualization helpers.
   - `submit.py`: Submission packaging tooling.
-
-## Acknowledgment
-Scaffolding and the `eecs598` package are based on the University of Michigan's EECS 498/598 *Deep Learning for Computer Vision* course.

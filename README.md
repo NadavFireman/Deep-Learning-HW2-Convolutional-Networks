@@ -1,6 +1,6 @@
 # Deep Learning - Convolutional Networks (HW2)
 
-**Home Assignment 2 (M.Sc. Data Science, HIT). Convolution and max-pooling layers implemented from scratch in PyTorch — analytic gradients verified numerically — then a custom CNN designed and tuned over a two-stage, 324-configuration grid search, reaching 87.61% test accuracy on CIFAR-10.**
+**Home Assignment 2 (Grade 96, M.Sc. Data Science, HIT). Convolution and max-pooling layers implemented from scratch in PyTorch — analytic gradients verified numerically — then a custom CNN designed and tuned over a two-stage, 324-configuration grid search, reaching 87.61% test accuracy on CIFAR-10.**
 
 ## Key Features
 - **Conv & MaxPool from Scratch:** Naive forward passes (stride, zero-padding) and manually derived backward passes, verified against centered finite differences — sanity-checked by applying hand-crafted grayscale and edge-detection kernels to real images.
